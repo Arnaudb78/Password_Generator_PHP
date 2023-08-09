@@ -1,0 +1,44 @@
+body {
+    background-color: #333;
+    margin: 0;
+    color: #fff;
+    min-height: 100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    text-align: center;
+    padding: 2em;
+}
+form{
+    background-color: slateblue;
+    width: 50%;
+    height: 50vh;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 1rem;
+    column-gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.btn {
+    grid-column: span 2;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: .5rem 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+.btn:hover{
+    background-color: #333;
+}
+.select{
+    background-color: dodgerblue;
+}
+input[type=number]{
+    border: 2px solid red;
+    border-radius: 4px;
+}
