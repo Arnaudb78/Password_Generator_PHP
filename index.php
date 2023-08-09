@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Générateur de mot de passe</h1>
-    <form action="listPassword.php">
+    <form action="listPassword.php" method="POST">
         Combien de mot de passe ? : <input type="number" name="nbrPasswd" min="1" max="50" value="1">
         <br>
         La taille du mot de passe ? : <input type="number" name="nbrCaract" min="1" max="50" value="10">

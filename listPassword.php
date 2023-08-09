@@ -1,8 +1,8 @@
 <?php 
 //Récupère les params pour adapter aux besoins du User
-$saisieNbrPasswd = $_GET['nbrPasswd'];
-$saisieNbrCaract = $_GET['nbrCaract'];
-$saisieTypePasswd = $_GET['typePasswd'];
+$saisieNbrPasswd = $_POST['nbrPasswd'];
+$saisieNbrCaract = $_POST['nbrCaract'];
+$saisieTypePasswd = $_POST['typePasswd'];
 
 // Type de caractères à prendre en compte pour générer les mots de passe (change selon les params du User)
 if($saisieTypePasswd == '1'){
